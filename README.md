@@ -25,14 +25,21 @@
 git clone https://github.com/ali00n/Healthchecks_Inteligentes.git
 cd Healthchecks_Inteligentes
 
-# Build automatizado
-./scripts/build.sh
-
-# Deploy automatizado
-./scripts/deploy.sh
+# Iniciar o projeto usando o Docker (Maneira Direta):
+docker-compose up --build -d
 
 # Acessar dashboard
 open http://localhost:3000
+```
+
+### Execução via Scripts de Automação (Bash)
+Se você estiver utilizando um terminal bash ou Linux, pode testar o fluxo de automação usando os scripts, como dito no TF, portanto abaixo está como fazer:
+```bash
+# Executa os testes e gera as imagens Docker
+./scripts/build.sh
+
+# Faz o deploy aplicando Zero-Downtime
+./scripts/deploy.sh
 ```
 
 ## Scripts Disponíveis
