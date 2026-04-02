@@ -23,7 +23,7 @@
 ### Execução Completa
 ```bash
 git clone https://github.com/ali00n/Healthchecks_Inteligentes.git
-cd TF05
+cd Healthchecks_Inteligentes
 
 # Build automatizado
 ./scripts/build.sh
