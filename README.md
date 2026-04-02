@@ -1,8 +1,8 @@
 # TF05 - Sistema de Monitoramento e Automação
 
 ## Aluno
-- **Nome:** [Seu Nome Completo]
-- **RA:** [Seu RA]
+- **Nome:** [Alisson Ribeiro Almeida]
+- **RA:** [6324605]
 - **Curso:** Análise e Desenvolvimento de Sistemas
 
 ## Funcionalidades
@@ -67,8 +67,7 @@ open http://localhost:3000
 
 ## Entrega
 - Repositório GitHub
-- Nome: tfsImplantacaoSistemas2026
-- Pasta: TF05/
+- Nome: Healthchecks_Inteligentes
 
 ## Validação
 ```bash
@@ -78,15 +77,6 @@ open http://localhost:3000
 ./scripts/health-monitor.sh --check-all
 ```
 
-## Dicas
-- Teste todos os scripts antes de entregar
-- Implemente rollback funcional
-- Configure alertas realistas
-- Documente cada script detalhadamente
-- Use healthchecks específicos por serviço
-- Automatize com inteligência!
-
 > Note
-> Desenvolvido por: Professor Alexandre Tavares - UniFAAT
-> Versão: 1.0 - Semestre 2026.1
-> Última atualização: Janeiro 2026
+> Desenvolvido por: Alisson Ribeiro
+> Última atualização: 01/04/2026
